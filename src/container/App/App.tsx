@@ -1,30 +1,14 @@
 import React from 'react'
-
-type Props = {
-    title: string
-}
-
-const AppList = () => {
-    return(
-        <ul>
-            <li>List 1</li>
-            <li>List 2</li>
-            <li>List 3</li>
-        </ul>
-    )
-}
-
-const AppHeder = (props: Props) => {
-    return <h1>Hell {props.title} oooooo</h1>
-}
+import CssBaseline from '@mui/material/CssBaseline'
+import Header from 'container/Header/Header'
 
 const App = () => {
-  return (
-    <>
-        <AppHeder title="++++"/>
-        <AppList />
-    </>
-  )
+    return (
+        <>
+            <CssBaseline />
+            <Header/>
+        </>
+    )
 }
 
 export default App

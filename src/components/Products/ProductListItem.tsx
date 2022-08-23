@@ -6,7 +6,7 @@ import {
     TextField,
 } from '@mui/material'
 import React from 'react'
-import classes from './ProductListItem.module.scss'
+// import classes from './ProductListItem.module.scss'
 import './ProductListItem.scss'
 
 export type ProductProps = {

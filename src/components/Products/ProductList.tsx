@@ -1,5 +1,4 @@
 import { Grid, Typography } from '@mui/material'
-import { type } from '@testing-library/user-event/dist/type'
 import ProductListItem from './ProductListItem'
 import productsArray from './productsArray'
 import { ProductProps } from './ProductListItem'
